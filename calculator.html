@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator Mockup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+    .calculator {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .display {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 10px;
+      text-align: right;
+      padding: 10px;
+      font-size: 20px;
+    }
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 60px);
+      grid-gap: 10px;
+    }
+    button {
+      height: 40px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: none;
+      background: #e0e0e0;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #d5d5d5;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input class="display" type="text" readonly>
+    <div class="buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>/</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>*</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+      <button>+</button>
+    </div>
+  </div>
+</body>
+</html>
